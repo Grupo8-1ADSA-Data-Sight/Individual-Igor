@@ -2,7 +2,6 @@ package bancoDeDados;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.springframework.jdbc.core.JdbcTemplate;
-
 import java.io.IOException;
 
 public class Conexao {
@@ -22,4 +21,10 @@ public class Conexao {
     public JdbcTemplate getConexaoDoBanco() throws IOException {
         return conexaoDoBanco;
     }
+
+    public void selectBanco(){
+        conexaoDoBanco.queryForObject("select 1", Integer.class);
+    }
+
 }
+
