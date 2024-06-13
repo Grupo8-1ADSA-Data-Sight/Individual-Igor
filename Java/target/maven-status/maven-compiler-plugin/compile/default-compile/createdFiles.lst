@@ -1,0 +1,8 @@
+bancoDeDados\Conexao.class
+program\Main.class
+util\Componentes.class
+util\Maquina.class
+bancoDeDados\InserirDadosNaTabela.class
+util\ApresentarDados.class
+bancoDeDados\ConexaoServer.class
+util\Slack.class
